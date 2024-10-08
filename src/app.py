@@ -61,4 +61,4 @@ for message in st.session_state.chat_history:
         with st.chat_message("Human"):
             st.markdown(message.content)
 
-st.text_input("Type a message...")
+st.chat_input("Type a message...")
